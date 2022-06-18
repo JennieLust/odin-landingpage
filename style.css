@@ -18,6 +18,59 @@ body {
     justify-content: center;
 }
 
+.products-bg {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 30px 0;
+    max-width: 300px;
+    flex-wrap: wrap;
+
+}
+
+.product-cards {
+    display: flex;
+    justify-content: center;
+    min-width: 0;
+    max-width: 60%;
+    flex: 1 1 0;
+    gap: 15px;
+}
+
+.product1, .product2, .product3, .product4 {
+   display: flex;
+   min-width: 0;
+   flex: 1 1 0;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.product1-img, .product2-img, .product3-img, .product4-img {
+    min-width: 100px;
+    min-height: 100px;
+    object-fit: cover;
+    flex: 1 1 auto;
+    border-radius: 10%;
+    border: 3px solid;
+    border-color: #3882F6;
+
+}
+
+.product1-text, .product2-text, .product3-text, .product4-text {
+    flex: 1 1 auto;
+    font-size: 12px;
+    min-height: 140px;
+
+}
+
 .citat {
     display: flex;
     flex: 4 1 auto;
