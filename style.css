@@ -18,6 +18,83 @@ body {
     justify-content: center;
 }
 
+.head-bg {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 50px 0;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    min-width: 60%;
+    flex-wrap: wrap;
+    max-width: 60%;
+    gap: 20px;
+}
+
+.logo {
+    color: #F9Faf8;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #F9Faf8;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    max-width: 60%;
+}
+
+.intro-left {
+    display: flex;
+    flex-direction: column;
+    color: #F9Faf8;
+    height: 200px;
+    align-items:flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+.intro .big {
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 30px;
+}
+
+.intro-left p {
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+.intro img {
+    max-width: 45%;
+    height: 45%;
+    align-self: center;
+}
+
+.head-bg button {
+    background-color: #3882F6;
+    border: none;
+
+}
+
 .products-bg {
     display: flex;
     justify-content: center;
