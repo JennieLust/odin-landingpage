@@ -10,18 +10,56 @@
 
 body {
     background-color: white;
+    font-family: 'Roboto', sans-serif;
     display:flex;
     flex-direction: column;
     padding: 0;
     margin: 0;
+    justify-content: center;
 }
+
+.citat {
+    display: flex;
+    flex: 4 1 auto;
+    background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.citat-content {
+    max-width: 60%;
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0 40px 0;
+}
+
+.citat-text {
+    font-size: 36px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+
+.citat-op {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
 
 footer {
     background-color: #1f2937;
-    font-family: 'Roboto', sans-serif;
     font-size: small;
-    color: white;
+    color: #F9Faf8;
+    min-width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    max-height: 65px;
+    min-height: 60px;
+    max-width: 100%;
 }
