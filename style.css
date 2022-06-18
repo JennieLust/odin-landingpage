@@ -103,6 +103,54 @@ body {
     align-self: flex-end;
 }
 
+.button-bg {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+    padding: 30px 0 30px 0; 
+}
+
+.button-section {
+    display: flex;
+    flex: 1 1 0;
+    background-color: #3882F6;
+    border-radius: 15px;
+    max-width: 60%;
+    max-height: 80px;
+    min-height: 50px;
+    min-width: 100px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-evenly;  
+}
+
+.call-texts {
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 0 30px 0;
+}
+
+.call-text-big {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.call-small-text {
+    font-size: small;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    flex: 0 0 1;
+}
 
 footer {
     background-color: #1f2937;
